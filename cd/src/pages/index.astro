@@ -3,12 +3,22 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from "./Navbar.astro";
 import Landing from "./Landing.astro";
 import AboutMe from "./AboutMe.astro";
+import Project from "./Project.astro";
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
+		<div>
 		<Navbar />
+		</div>
+		<div>
 		<Landing />
+		</div>
+		<div class="bg-blue-700">
 		<AboutMe />
+		</div>
+		<div class="">
+		<Project />
+		</div>
 	</main>
 </Layout>
