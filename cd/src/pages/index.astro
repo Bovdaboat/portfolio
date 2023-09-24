@@ -4,6 +4,8 @@ import Navbar from "./Navbar.astro";
 import Landing from "./Landing.astro";
 import AboutMe from "./AboutMe.astro";
 import Project from "./Project.astro";
+import Contact from "./Contact.astro";
+import Skills from "./Skills.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -15,10 +17,16 @@ import Project from "./Project.astro";
 		<Landing />
 		</div>
 		<div class="bg-blue-700">
-		<AboutMe />
+		<Skills />
 		</div>
 		<div class="">
 		<Project />
+		</div>
+		<div class="">
+			<AboutMe />
+		</div>
+		<div>
+			<Contact />
 		</div>
 	</main>
 </Layout>
