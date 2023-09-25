@@ -1,0 +1,44 @@
+
+<div id="/Contact" class="bg-blue-800 h-screen text-primary text-3xl font-mono p-6">
+    <div class="flex justify-center p-6 font-bold text-white">
+        Contact Me 💬
+    </div>
+    <h1 class="font-mono text-xl m-3 text-white">
+
+    </h1>
+    <form
+            action="https://formsubmit.co/b2d2feb8ead734c989509b99352b3205"
+            method="POST"
+            class="max-w-md mx-auto mt-5 p-4 border rounded shadow-lg"
+    >
+        <input
+                class="input input-bordered input-lg w-full p-3 mb-4"
+                type="text"
+                placeholder="Name"
+                name="name"
+                required
+                maxLength="100"
+        />
+        <input
+                class="input input-bordered input-lg w-full p-3 mb-4"
+                type="text"
+                placeholder="Email"
+                name="email"
+                required
+                pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}"
+        />
+        <textarea
+                class="input input-bordered input-lg w-full p-3 mb-4"
+                placeholder="Message"
+                rows="4"
+                name="message"
+                required
+                maxLength="2000"
+        ></textarea>
+        <button type="submit" class="btn w-full p-4 mt-5 text-white">
+            Send Message
+        </button>
+    </form>
+</div>
+
+
