@@ -1,32 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from "./Navbar.astro";
 import Landing from "./Landing.astro";
-import AboutMe from "./AboutMe.astro";
-import Project from "./Project.astro";
-import Contact from "./Contact.astro";
-import Skills from "./Skills.astro";
+import Navbar from "./Navbar.astro";
+
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<div>
 		<Navbar />
-		</div>
-		<div>
-		<Landing />
-		</div>
-		<div class="bg-blue-700">
-		<Skills />
-		</div>
-		<div class="">
-		<Project />
-		</div>
-		<div class="">
-			<AboutMe />
-		</div>
-		<div>
-			<Contact />
-		</div>
+<Landing />
 	</main>
 </Layout>
